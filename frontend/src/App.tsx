@@ -28,7 +28,7 @@ function App() {
 
     try {
       const response = await fetch(
-        "http://3.110.174.204:8000/verify",
+        "/api/verify",
         {
           method: "POST",
           headers: {
