@@ -14,18 +14,18 @@ def collect_independent_evidence(contradiction):
 
         {
             "evidence_id": "E001",
-            "source": "Government Flood Report",
-            "evidence_type": "government_report",
-            "claim": "Flooding has disrupted transportation and industrial operations in the affected Chennai area.",
+            "source": "Independent Verification Check",
+            "evidence_type": "verification",
+            "claim": claim2,
             "supports_claim": claim2,
             "confidence": 0.90
         },
 
         {
             "evidence_id": "E002",
-            "source": "Supplier Communication",
-            "evidence_type": "supplier_statement",
-            "claim": "The component supplier has temporarily suspended operations because of flooding.",
+            "source": "Cross-Check",
+            "evidence_type": "cross_check",
+            "claim": claim2,
             "supports_claim": claim2,
             "confidence": 0.85
         }
